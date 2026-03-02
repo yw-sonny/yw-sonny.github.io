@@ -271,8 +271,65 @@
 </tbody></table>
 <table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
 
+<tr onmouseout="pl_proj_stop()" onmouseover="pl_proj_start()">
+  <td style="padding:16px;width:20%;vertical-align:middle">
+	<!-- <div class="one">
+	  <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
+	  <source src="images/bolt3d.mp4" type="video/mp4">
+	  Your browser does not support the video tag.
 
-	  
+	  </video></div>
+	  <img src='images/[posco_challenge]representation.png' width="160">
+	</div> -->
+	<div class="one" style="position:relative; width:160px; height:160px; overflow:hidden;">
+	  <div class="two" id="pl_proj_image" 
+	       style="position:absolute; top:0; left:0; width:100%; height:100%;">
+	    <video muted autoplay loop 
+	           style="width:200%; height:200%; object-fit:cover; position:absolute; top:-65%; left:-60%;">
+	      <source src="images/[posco_challenge]representation_video.mov" type="video/mp4">
+	      Your browser does not support the video tag.
+	    </video>
+	  </div>
+	  <img src="images/[posco_challenge]representation.png" width="160">
+	  </div>
+	<script type="text/javascript">
+	  function pl_proj_start() {
+		document.getElementById('pl_proj_image').style.opacity = "1";
+	  }
+
+	  function pl_proj_stop() {
+		document.getElementById('pl_proj_image').style.opacity = "0";
+	  }
+	  pl_proj_stop()
+	</script>
+  </td>
+  <td style="padding:8px;width:80%;vertical-align:middle">
+	<span class="papertitle">POSCO Industrial AI-Robot Challenge 2025</span>
+	<br>
+	<strong>Yeongwoo Son</strong></a>,
+	Hansol Kang,
+	Jaeyoung Oh,
+	Bumsu Yi,
+	Daegeol Ko,
+	Seongbo Ha,
+	Jaehyuk Hur
+	<br>
+	<a href="https://daegeolko.github.io/Posco_skku/">project page</a>
+	/
+	<a href="https://www.youtube.com/watch?v=cKHhbTgqOg0">video1</a>
+	/
+	<a href="https://www.youtube.com/watch?v=MITxr7rbkO4">video2</a>
+	<p></p>
+	
+	<span style="color:#d35400; font-weight:bold;">
+	  🥇 1st Place
+	</span>
+	<br>
+	<p>
+	A competition, organized by <a href="https://www.posco.co.kr/homepage/docs/kor7/jsp/s91a0000001i.jsp" target="_blank">POSCO</a>, evaluating the autonomous walking and mission-performing capabilities of quadruped robots in an industrial site replicating the POSCO steelworks.
+	</p>
+  </td>
+</tr>
 	
         </td>
       </tr>
