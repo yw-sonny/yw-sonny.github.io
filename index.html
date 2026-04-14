@@ -83,15 +83,8 @@
 
 <tr onmouseout="roa3d_stop()" onmouseover="roa3d_start()">
   <td style="padding:16px;width:20%;vertical-align:middle">
-	<!-- <div class="one"> -->
-	  <!-- <div class="two" id='bolt3d_image'><video  width=100% height=100% muted autoplay loop>
-	  <source src="images/bolt3d.mp4" type="video/mp4">
-	  Your browser does not support the video tag.
-
-	  </video></div> -->
-	  <!-- <img src='images/3d_roa.png' width="160"> -->
 		<div class="one" style="position:relative; width:160px; height:160px; overflow:hidden;">
-		<div class="two" id="3d_roa_planner_image" 
+		<div class="two" id="roa_planner_3d_image" 
 		   style="position:absolute; top:0; left:0; width:100%; height:100%;">
 		<video muted autoplay loop 
 			   style="width:100%; height:100%; object-fit:cover; position:absolute; top:0%; left:0%;">
@@ -103,11 +96,11 @@
   </div>
 	<script type="text/javascript">
 	  function roa3d_start() {
-		document.getElementById('3d_roa_planner_image').style.opacity = "1";
+		document.getElementById('roa_planner_3d_image').style.opacity = "1";
 	  }
 
 	  function roa3d_stop() {
-		document.getElementById('3d_roa_planner_image').style.opacity = "0";
+		document.getElementById('roa_planner_3d_image').style.opacity = "0";
 	  }
 	  3droa_stop()
 	</script>
