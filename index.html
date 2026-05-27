@@ -193,6 +193,66 @@
 <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
   <tr>
   <td style="padding:16px;width:100%;vertical-align:middle">
+	<h2>Project</h2>
+  </td>
+</tr>
+</tbody></table>
+<table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+
+
+
+<tr onmouseout="pl_giac_proj_stop()" onmouseover="pl_giac_proj_start()">
+  <td style="padding:16px;width:20%;vertical-align:middle">
+	<div class="one" style="position:relative; width:160px; height:160px; overflow:hidden;">
+	  <div class="two" id="pl_giac_proj_image" 
+	       style="position:absolute; top:0; left:0; width:100%; height:100%;">
+	    <video muted autoplay loop 
+	           style="width:100%; height:100%; object-fit:cover; position:absolute; top:0%; left:0%; border: 1px solid #cccccc;">
+	      <source src="images/[pl_giac_proj]representative_video.mp4" type="video/mp4">
+	      Your browser does not support the video tag.
+	    </video>
+	  </div>
+	  <img src="images/[pl_giac_proj]representative_image.png" width="160">
+	  </div>
+	<script type="text/javascript">
+	  function pl_giac_proj_start() {
+		document.getElementById('pl_giac_proj_image').style.opacity = "1";
+	  }
+
+	  function pl_giac_proj_stop() {
+		document.getElementById('pl_giac_proj_image').style.opacity = "0";
+	  }
+	  pl_giac_proj_stop()
+	</script>
+  </td>
+  <td style="padding:8px;width:80%;vertical-align:middle">
+	<span class="papertitle"> NLP-Based Perceptive Locomotion with GIAC dynamic stability constraint </span>
+	<br>
+	<strong>Yeongwoo Son</strong></a>,
+	Bumsi Yi,
+	Seongwon Nam,
+	Jiman Park
+	<br>
+	project page (TBD) / video (TBD)
+	<!-- <a href="https://daegeolko.github.io/Posco_skku/">project page</a> -->
+	<p></p>
+	
+	<span style="color:#2ecc71; font-weight:bold;">
+	  🚀 PoC at POSCO Pohang Steelworks
+	</span>
+	<br>
+	<p>
+	Developed an optimization-based locomotion framework considering dynamic stability using <em>Gravito-Inertia Acceleration Cone (GIAC)</em> to enable stable stair climbing for quadruped robots, AiDIN-IX.
+	</p>
+  </td>
+</tr>
+
+
+
+	
+<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+  <tr>
+  <td style="padding:16px;width:100%;vertical-align:middle">
 	<h2>Competition</h2>
   </td>
 </tr>
@@ -251,63 +311,6 @@
   </td>
 </tr>
 		
-<table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-  <tr>
-  <td style="padding:16px;width:100%;vertical-align:middle">
-	<h2>Project</h2>
-  </td>
-</tr>
-</tbody></table>
-<table style="width:100%;border:0px;border-spacing:0px 10px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-
-
-
-<tr onmouseout="pl_giac_proj_stop()" onmouseover="pl_giac_proj_start()">
-  <td style="padding:16px;width:20%;vertical-align:middle">
-	<div class="one" style="position:relative; width:160px; height:160px; overflow:hidden;">
-	  <div class="two" id="pl_giac_proj_image" 
-	       style="position:absolute; top:0; left:0; width:100%; height:100%;">
-	    <video muted autoplay loop 
-	           style="width:100%; height:100%; object-fit:cover; position:absolute; top:0%; left:0%; border: 1px solid #cccccc;">
-	      <source src="images/[pl_giac_proj]representative_video.mp4" type="video/mp4">
-	      Your browser does not support the video tag.
-	    </video>
-	  </div>
-	  <img src="images/[pl_giac_proj]representative_image.png" width="160">
-	  </div>
-	<script type="text/javascript">
-	  function pl_giac_proj_start() {
-		document.getElementById('pl_giac_proj_image').style.opacity = "1";
-	  }
-
-	  function pl_giac_proj_stop() {
-		document.getElementById('pl_giac_proj_image').style.opacity = "0";
-	  }
-	  pl_giac_proj_stop()
-	</script>
-  </td>
-  <td style="padding:8px;width:80%;vertical-align:middle">
-	<span class="papertitle"> NLP-Based Perceptive Locomotion with GIAC dynamic stability constraint </span>
-	<br>
-	<strong>Yeongwoo Son</strong></a>,
-	Bumsi Yi,
-	Seongwon Nam,
-	Jiman Park
-	<br>
-	project page (TBD) / video (TBD)
-	<!-- <a href="https://daegeolko.github.io/Posco_skku/">project page</a> -->
-	<p></p>
-	
-	<span style="color:#2ecc71; font-weight:bold;">
-	  🚀 PoC at POSCO Pohang Steelworks
-	</span>
-	<br>
-	<p>
-	Developed an optimization-based locomotion framework considering dynamic stability using <em>Gravito-Inertia Acceleration Cone (GIAC)</em> to enable stable stair climbing for quadruped robots, AiDIN-IX.
-	</p>
-  </td>
-</tr>
-
 	
 	
         </td>
